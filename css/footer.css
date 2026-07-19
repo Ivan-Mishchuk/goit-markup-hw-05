@@ -9,6 +9,7 @@
 .footer .container {
     display: flex;
     align-items: flex-start;
+    justify-content: space-between;
 }
 
 .footer-info {
@@ -80,3 +81,66 @@
     fill: var(--color-cloud);
 }
 
+.footer-form {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 24px;
+}
+
+.footer-form-label {
+        display: flex;
+        flex-direction: column;
+
+        gap: 16px;
+
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #fff;
+}
+
+.footer-form-input {
+    border: 1px solid #fff;
+    border-radius: 4px;
+    padding: 8px 16px;
+    width: 264px;
+    height: 40px;
+    background-color: inherit;
+    color: var(--color-white);
+    outline: none;
+}
+
+.footer-form-input::placeholder {
+    color: var(--color-white);
+}
+
+.footer-form-input:focus {
+    border-color: var(--color-green);
+}
+
+.footer-button {
+    display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        gap: 16px;
+    border-radius: 4px;
+        padding: 8px 24px;
+        width: 165px;
+        height: 40px;
+        max-width: 165px;
+        background: #4d5ae5;
+        color: #fff;
+        transition: background-color 250ms cubic-bezier(.4, 0, .2, 1);
+}
+
+.footer-button:hover,
+.footer-button:focus {
+    background-color: var(--color-green);
+}
+
+.footer-social-icon {
+    fill: #fff;
+}
