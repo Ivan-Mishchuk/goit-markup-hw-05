@@ -15,6 +15,12 @@
         justify-content: space-between;
 }
 
+.footer-left-group {
+    display: flex;
+        align-items: baseline;
+        gap: 120px;
+}
+
 .footer-info {
     max-width: 264px;
 }
@@ -41,7 +47,7 @@
 }
 
 .footer-social {
-    margin-left: 120px;
+    /* margin-left: 120px; */
 }
 
 .footer-social-media {
@@ -86,6 +92,7 @@
 
 .footer-subscribe {
     /* margin-left: 80px; */
+    margin-left: auto;
 }
 
 
@@ -118,6 +125,19 @@
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #fff; */
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 .footer-form-input {
