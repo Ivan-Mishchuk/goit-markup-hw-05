@@ -68,7 +68,7 @@
         width: 24px;
         height: 24px;
     
-        border: 1px solid rgba(0, 0, 0, 0.1);
+        border: 1px solid rgba(46, 47, 66, 0.4);
         border-radius: 50%;
     
         background-color: #e7e9fc;
@@ -293,6 +293,7 @@
 
 .privacy-link {
     color: var(--color-iris);
+    text-decoration: underline;
 }
 
 .modal-submit-btn {
@@ -314,6 +315,7 @@
     letter-spacing: 0.04em;
 
     color: #ffffff;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15)
 
     cursor: pointer;
 
